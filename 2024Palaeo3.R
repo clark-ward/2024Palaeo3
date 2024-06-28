@@ -261,7 +261,7 @@ setwd(dir)
     # Color designates source of data: 
       # blue = Nguy and Secord, 2022
       # green = Kita et al., 2014
-      # skyblue = Clementz et al., 2008 (Ashfall)
+      # skyblue = Clementz et al., 2008 (11.8 Ma Nebraska)
       # red = this study
       # purple = Frederickson et al., 2022
       # orange = MacFadden and Cerling, 1996; MacFadden, 1998
