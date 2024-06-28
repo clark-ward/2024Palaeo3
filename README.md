@@ -22,3 +22,5 @@ Questions about or issues with code or data can be send to ward1179@umn.edu or @
 [Parker et al. (2018)](https://doi.org/10.1016/j.palaeo.2018.07.017);
 [Tejada-Lara et al. (2018)](http://dx.doi.org/10.1098/rspb.2018.1020);
 [Tipple et al. (2010)](https://doi.org/10.1029/2009PA001851)
+
+The Tipple et al. (2010) supplementary file has screwed up formatting. I've uploaded a fixed version here; feel free to share. 
