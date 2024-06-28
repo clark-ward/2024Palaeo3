@@ -1,0 +1,28 @@
+taxon,lab.ID,museum.ID,tooth.position,Sr.iso,d13C,d18O.VPDB,d18O.VSMOW,sex,com.name,color,family,pch
+Cormohipparion occidentale,AFB-10,UNSM 27861,I3,0.70885,-7.9,-4,26.8,,,darkorange,Equidae,17
+Cormohipparion occidentale,AFB-11,UNSM 142738,M3,0.70896,-8.6,-4.3,26.5,,,darkorange,Equidae,17
+Cormohipparion occidentale,AFB-17,UNSM 27860,i3,0.70889,-6.9,-3.3,27.6,,,darkorange,Equidae,17
+Longirostromeryx wellsi,AFB-14,UNSM 142742,M2,0.70872,-9.6,-2.4,28.4,,,deepskyblue,Blastomerycinae,9
+Longirostromeryx wellsi,AFB-12,UNSM 142741,M3,0.70878,-9.3,-7.6,23.1,,,deepskyblue,Blastomerycinae,9
+Longirostromeryx wellsi,AFB-13,UNSM 142740,m3,0.70875,-8.6,-5.8,25,,,deepskyblue,Blastomerycinae,9
+Pliohippus pernix,AFB-16,UNSM 27870,I3,0.70891,-7.9,-4.6,26.2,,,indianred3,Equidae,17
+Pliohippus pernix,AFB-01,UNSM 27870,M3,0.70894,-8.8,-2.9,27.9,,,indianred3,Equidae,17
+Pliohippus pernix,AFB-15,UNSM 27864,p3,0.70898,-7.7,-3.5,27.3,,,indianred3,Equidae,17
+Procamelus grandis,AFB-08,UNSM 142739,m3,0.70891,-9.1,-4.3,26.5,,,aquamarine3,Camelidae,4
+Protolabis heterodontus,AFB-09,UNSM 62878,M3,0.70892,-9.3,-6.1,24.6,,,paleturquoise4,Camelidae,4
+Pseudhipparion gratum,AFB-18,UNSM 27887,M3,0.70883,-9.5,-2.7,28.1,,,firebrick4,Equidae,17
+Pseudhipparion gratum,AFB-19,UNSM 27885,M3,0.70879,-8.6,-1.3,29.6,,,firebrick4,Equidae,17
+Pseudhipparion gratum,AFB-20,UNSM 27846,M3,0.70891,-7.5,-3,27.9,,,firebrick4,Equidae,17
+Teleoceras major,AFB-02,UNSM 52247,m3,0.70869,-8.1,-5.6,25.1,m,"""Woofy""",lightgoldenrod4,Rhinocerotidae,15
+Teleoceras major,AFB-04,UNSM 27803,m3,0.70864,-8.3,-5.4,25.3,m,"""Morris""",lightgoldenrod4,Rhinocerotidae,15
+Teleoceras major,AFB-05,UNSM 52236,m3,0.70874,-7.7,-5.9,24.8,m,"""Bruce""",lightgoldenrod4,Rhinocerotidae,15
+Teleoceras major,AFB-24,UNSM 52288,m3,0.70865,-8.5,-7.3,23.4,m,"""Fairfield""",lightgoldenrod4,Rhinocerotidae,15
+Teleoceras major,AFB-25,UNSM 27805,m3,0.70866,-8.6,-6.9,23.8,m,"""Grandpa John""",lightgoldenrod4,Rhinocerotidae,15
+Teleoceras major,AFB-03,UNSM 27808,m3,0.70866,-8.8,-6.1,24.6,f,"""Scarlet O'Hara""",lightgoldenrod4,Rhinocerotidae,16
+Teleoceras major,AFB-06,UNSM 52373,m3,0.70868,-9.2,-6.6,24.1,f,"""Diller""",lightgoldenrod4,Rhinocerotidae,16
+Teleoceras major,AFB-07,UNSM 52286,m3,0.70868,-8.4,-6.1,24.6,f,"""Mary Anning""",lightgoldenrod4,Rhinocerotidae,16
+Teleoceras major,AFB-26,UNSM 52282,m3,0.70864,-8.3,-7,23.7,f,"""Jean""",lightgoldenrod4,Rhinocerotidae,16
+Teleoceras major,AFB-27,UNSM 27806,m3,0.70873,-8.5,-5.8,24.9,f,"""Barb""",lightgoldenrod4,Rhinocerotidae,16
+Teleoceras major,AFB-28,UNSM 52289,m3,0.70871,-8.4,-6.7,24,f,"""Joseph Leidy""",lightgoldenrod4,Rhinocerotidae,16
+Teleoceras major,AFB-29,UNSM 52269,m3,0.7087,-8.3,-6,24.7,f,"""Pushy""",lightgoldenrod4,Rhinocerotidae,16
+Teleoceras major,AFB-30,UNSM 27807,m3,0.7087,-7.9,-4.8,26,f,"""Sparky""",lightgoldenrod4,Rhinocerotidae,16
