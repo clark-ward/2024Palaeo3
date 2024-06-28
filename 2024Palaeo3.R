@@ -116,18 +116,18 @@ setwd(dir)
     # calculations for plotting
     {
       # means per isotope; # first by species, then add families
-      Sr.mean.s <- tapply(AFB_data$Sr.iso, factor(AFB_data$group, levels = unique(AFB_data$group)), mean)
+      Sr.mean.s <- tapply(AFB_data$Sr.iso, factor(AFB_data$taxon, levels = unique(AFB_data$taxon)), mean)
       Sr.means <- c(Sr.mean.s, tapply(AFB_data$Sr.iso, factor(AFB_data$family, levels = c("Equidae", "Camelidae")), mean))
-      C.mean.s <- tapply(AFB_data$d13C, factor(AFB_data$group, levels = unique(AFB_data$group)), mean)
+      C.mean.s <- tapply(AFB_data$d13C, factor(AFB_data$taxon, levels = unique(AFB_data$taxon)), mean)
       C.means <- c(C.mean.s, tapply(AFB_data$d13C, factor(AFB_data$family, levels = c("Equidae", "Camelidae")), mean))
-      O.mean.s <- tapply(AFB_data$d18O.VPDB, factor(AFB_data$group, levels = unique(AFB_data$group)), mean)
+      O.mean.s <- tapply(AFB_data$d18O.VPDB, factor(AFB_data$taxon, levels = unique(AFB_data$taxon)), mean)
       O.means <- c(O.mean.s, tapply(AFB_data$d18O.VPDB, factor(AFB_data$family, levels = c("Equidae", "Camelidae")), mean))
       # standard deviations
-      Sr.s.d <- tapply(AFB_data$Sr.iso, factor(AFB_data$group, levels = unique(AFB_data$group)), sd)
+      Sr.s.d <- tapply(AFB_data$Sr.iso, factor(AFB_data$taxon, levels = unique(AFB_data$taxon)), sd)
       Sr.sd <- c(Sr.s.d, tapply(AFB_data$Sr.iso, factor(AFB_data$family, levels = c("Equidae", "Camelidae")), sd))
-      C.s.d <- tapply(AFB_data$d13C, factor(AFB_data$group, levels = unique(AFB_data$group)), sd)
+      C.s.d <- tapply(AFB_data$d13C, factor(AFB_data$taxon, levels = unique(AFB_data$taxon)), sd)
       C.sd <- c(C.s.d, tapply(AFB_data$d13C, factor(AFB_data$family, levels = c("Equidae", "Camelidae")), sd))
-      O.s.d <- tapply(AFB_data$d18O.VPDB, factor(AFB_data$group, levels = unique(AFB_data$group)), sd)
+      O.s.d <- tapply(AFB_data$d18O.VPDB, factor(AFB_data$taxon, levels = unique(AFB_data$taxon)), sd)
       O.sd <- c(O.s.d, tapply(AFB_data$d18O.VPDB, factor(AFB_data$family, levels = c("Equidae", "Camelidae")), sd))
     }
     
