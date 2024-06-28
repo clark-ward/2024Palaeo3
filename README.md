@@ -12,10 +12,8 @@ Questions about or issues with code or data can be send to ward1179@umn.edu or @
 
 ### References
 
-[Clementz et al. (2008)](https://doi.org/10.2110/palo.2007.p07-054r)
-
-[Frederickson et al. (2022)](https://doi.org/10.4202/app.00941.2021)
-
+[Clementz et al. (2008);](https://doi.org/10.2110/palo.2007.p07-054r)
+[Frederickson et al. (2022);](https://doi.org/10.4202/app.00941.2021)
 [Jerison (1971)](https://doi.org/10.1086/282720)
 
 [Kita et al. (2014)](https://doi.org/10.1016/j.palaeo.2014.02.013)
