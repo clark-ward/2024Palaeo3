@@ -7,3 +7,5 @@ Ward, C.T., Crowley, B.E., Secord, R. (2024) Home on the range: A multi-isotope 
 (complete reference after publication)
 
 (add DOI after publication)
+
+Questions about or issues with code or data can be send to ward1179@umn.edu or @ClarkDeadnDying on twitter
