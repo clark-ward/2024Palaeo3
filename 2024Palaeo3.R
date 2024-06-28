@@ -1,6 +1,6 @@
 # Associated with Ward et al. (2024) "Home on the range: a multi-isotope investigation of ungulate resource partitioning at Ashfall Fossil Beds, Nebraska, USA" _Palaeogeography, Palaeoclimatology, Paleoecology_
 
-dir <- c("/Users/cward747/Desktop/R/2024Palaeo3")
+dir <- c("")
 setwd(dir)
 
 # install packages
@@ -19,9 +19,9 @@ setwd(dir)
 
 # load in data 
 {
-  AFB_data <- read.csv("data/AFB_data.csv", header = T, sep = ",", stringsAsFactors = F, fileEncoding = "UTF-8")
-  Oxygen_data <- read.csv("data/Oxygen_data.csv", header = T, fileEncoding = "UTF-8", stringsAsFactors = F)
-  MacFadden_data <- read.csv("data/MacFadden_data.csv", header = T, fileEncoding = "UTF-8", stringsAsFactors = F)
+  AFB_data <- read.csv("AFB_data.csv", header = T, sep = ",", stringsAsFactors = F, fileEncoding = "UTF-8")
+  Oxygen_data <- read.csv("Oxygen_data.csv", header = T, fileEncoding = "UTF-8", stringsAsFactors = F)
+  MacFadden_data <- read.csv("MacFadden_data.csv", header = T, fileEncoding = "UTF-8", stringsAsFactors = F)
 }
 
 # objects to make plotting easier
