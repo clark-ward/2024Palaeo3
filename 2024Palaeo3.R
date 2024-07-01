@@ -5,9 +5,9 @@ setwd(dir)
 
 # install packages
 {
-  install.packages("PMCMRplus")
-  install.packages("MASS")
-  install.packages("shipunov")
+  install.packages("PMCMRplus", dependencies = T)
+  install.packages("MASS", dependencies = T)
+  install.packages("shipunov", dependencies = T)
 }
 
 # load packages
