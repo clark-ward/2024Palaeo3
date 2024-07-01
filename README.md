@@ -6,7 +6,7 @@ Ward, C.T., Crowley, B.E., Secord, R. (2024) Home on the range: A multi-isotope 
 (complete reference after publication)
 (add DOI after publication)
 
-Questions about or issues with code or data can be send to ward1179@umn.edu or @ClarkDeadnDying on twitter
+Questions about or issues with code or data can be send to ward1179@umn.edu or @ClarkDeadnDying on twitter.
 
 ### __References__
 
@@ -23,4 +23,6 @@ Questions about or issues with code or data can be send to ward1179@umn.edu or @
 [Tejada-Lara et al. (2018)](http://dx.doi.org/10.1098/rspb.2018.1020);
 [Tipple et al. (2010)](https://doi.org/10.1029/2009PA001851)
 
-The Tipple et al. (2010) supplementary file has screwed up formatting. I've uploaded a fixed version here; feel free to share. 
+The Tipple et al. (2010) supplementary file has screwed up formatting. I've uploaded a fixed version here; feel free to share, I spent hours cleaning it up. 
+
+To calculate analytical uncertainty of stable isotope analyses, I used the calculators created by [Spzack et al. (2017)](https://doi.org/10.1016/j.jasrep.2017.05.007). I have provided the two calculators used in this publication, and a blank version for the reader. 
