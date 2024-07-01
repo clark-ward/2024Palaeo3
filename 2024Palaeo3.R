@@ -133,7 +133,9 @@ setwd(dir)
     
     # plotting
     {
-      cairo_pdf("figure 2.pdf", width = 4, height = 8)
+      # cairo_pdf("figure 2.pdf", width = 4, height = 8)
+      # cairo sometimes doesn't work on some computers
+      # the dimensions used in the publication are width = 4, height = 8
       layout(matrix(c(1,2,3), ncol = 1, byrow = T), heights = c(5,5,1.5))
       # C v O
       par(mar = c(4,5,1,1), cex.lab = 1.5)
@@ -161,7 +163,7 @@ setwd(dir)
       par(mar = c(0,0.4,0,0.4))
       plot.new()
       legend("center", legend = c(expression(bold("Rhinocerotidae")), expression(italic("Teleoceras major")), "male M3 (N=5)", "female M3 (N=8)", "",expression(bold("Camelidae")), "Procamelus (N=1)", "Protolabis (N=1)", expression(bold("Blastomerycinae")), "Longirostromeryx (N=3)", expression(bold("Equidae")), "Cormohipparion (N=3)", "Pliohippus (N=3)", "Pseudhipparion (N=3)"), col = c("black", color.list[7], color.list[7], color.list[7], NA, "black", color.list[4:5], "black", color.list[2], "black", color.list[c(1,3,6)]), pch = c(3, 15, 15, 16, NA, 4, 4, 4, 9, 9, 17, 17, 17, 17), cex = 0.9, ncol = 3, pt.cex = 1.4, xpd = T, bty = "n")
-      dev.off()
+      # dev.off()
     }
   }
 
@@ -169,8 +171,8 @@ setwd(dir)
 {
   lda.data <- AFB_data[,c("family", "Sr.iso", "d13C", "d18O.VPDB")]
   # CV = cross-validation
-  CV.lda <- lda(family ~ Sr.iso + d13C + d18O.VPDB, AFB.comm.data, tol = 7.0e-06, CV = T)
-  lda <- lda(family ~ Sr.iso + d13C + d18O.VPDB, AFB.comm.data, tol = 7.0e-06)
+  CV.lda <- lda(family ~ Sr.iso + d13C + d18O.VPDB, AFB_data, tol = 7.0e-06, CV = T)
+  lda <- lda(family ~ Sr.iso + d13C + d18O.VPDB, AFB_data, tol = 7.0e-06)
   tab <- table(AFB_data$family, CV.lda$class, dnn = c('Actual Group','Predicted Group'))
   prediction <- predict(lda, lda.data) # used in plotting
   # tab 2 isn't necessary. It doesn't include the cross-validation
@@ -189,12 +191,13 @@ setwd(dir)
     text(myscale * heads[,choices], labels = row.names(heads), 
          cex = tex)}
   
-  cairo_pdf("figure 3.pdf", width = 5, height = 4)
+  # cairo_pdf("figure 3.pdf", width = 5, height = 4)
+  # the dimensions matching the publication are width = 5, height = 4
   par(mfrow = c(1,1), mar = c(5,4,1,1))
   plot(prediction$x[,1], prediction$x[,2], col = AFB_data$color, pch = AFB_data$pch, xlab = "LD1 (93.4%)", ylab = "LD2 (0.06%)", xlim = c(-5,6), ylim = c(-4,4))
   lda.arrows(lda, col = "black", myscale = 1)
   Ellipses(prediction$x[,1:2], AFB_data$family, level = 0.95, centers = T, c.pch = 16, c.cex = 0.75, match.color = F)
-  dev.off()
+  # dev.off()
   # legend is the same figure 2, added post-R
 }
 
@@ -248,7 +251,8 @@ setwd(dir)
   
   # Figure 5
   {
-    cairo_pdf("figure 5.pdf", width = 5, height = 5)
+    # cairo_pdf("figure 5.pdf", width = 5, height = 5)
+    # the dimensions matching the publication are width = 5, height = 5
     par(mfrow = c(1,1), mar = c(5,5,3,2))
     plot(Oxygen.localities$Fauna.mean, Oxygen.localities$Teleo.mean, xlim = c(24.5, 31.5), ylim = c(23.5, 32.5), pch = c(0:10), xlab = expression(bold(delta^18*"O"["Fauna, VSMOW"]* " (\u2030)")), ylab = expression(bold(delta^18*"O"["Teleoceras, VSMOW"]* " (\u2030)")))
     abline(a = 0, b = 1, lty = 3, col = "black")
@@ -257,7 +261,7 @@ setwd(dir)
     arrows(x0 = Oxygen.localities$Fauna.mean, y0 = Oxygen.localities$Teleo.mean-Oxygen.localities$Teleo.se, y1 = Oxygen.localities$Teleo.mean+Oxygen.localities$Teleo.se, length = 0.05, angle = 90, code = 3, col = "black")
     points(Oxygen.localities$Fauna.mean, Oxygen.localities$Teleo.mean, pch = c(0:10), col = c("blue", "blue", "green", "green", "green", "skyblue", "red","purple", "orange", "orange", "orange", "orange"))
     legend("topleft", legend = Oxygen.localities$Locality, pch = c(0:14), cex = .6, pt.cex = 1, inset = c(0,0), xpd = T, ncol = 4, col = c("blue", "blue", "green", "green", "green", "skyblue", "red","purple", "orange", "orange", "orange", "orange"))
-    dev.off()
+    # dev.off()
     # Color designates source of data: 
       # blue = Nguy and Secord, 2022
       # green = Kita et al., 2014
@@ -297,24 +301,26 @@ setwd(dir)
     
     # figure S1 with x-axis labels
     {
-      cairo_pdf("figure S1_1.pdf", width = 4, height = 12)
+      # cairo_pdf("figure S1_1.pdf", width = 4, height = 12)
+      # the dimensions matching the publication are width = 4, height = 12
       par(mfrow = c(12, 1))
       for(i in c(12, 8, 5, 11, 10, 3, 4, 9, 6, 7, 2, 1)){
         par(mar = c(2.2, 2, 0.5, 0))
         barplot(as.matrix(family.percents[i, c(2:13)]), ylim = c(0, 65), col = "white", names.arg = fam.abbr)
       }
-      dev.off()
+      # dev.off()
     }
     
     # figure S1 without x-axis labels
     {
-      cairo_pdf("figure S1_2.pdf", width = 4, height = 12)
+      # cairo_pdf("figure S1_2.pdf", width = 4, height = 12)
+      # the dimensions matching the publication are width = 4, height = 12
       par(mfrow = c(12, 1))
       for(i in c(12, 8, 5, 11, 10, 3, 4, 9, 6, 7, 2, 1)){
         par(mar = c(0.75, 2, 0.5, 0))
         barplot(as.matrix(family.percents[i, c(2:13)]), ylim = c(0, 65), col = "white", axisnames = F)
       }
-      dev.off()
+      # dev.off()
     }
   }
 }
