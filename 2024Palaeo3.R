@@ -1,5 +1,7 @@
 # Associated with Ward et al. (2024) "Home on the range: a multi-isotope investigation of ungulate resource partitioning at Ashfall Fossil Beds, Nebraska, USA" _Palaeogeography, Palaeoclimatology, Paleoecology_
 
+# don't forget to set your working directory :)
+
 dir <- c("")
 setwd(dir)
 
