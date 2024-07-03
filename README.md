@@ -6,6 +6,8 @@ Ward, C.T., Crowley, B.E., Secord, R. (2024) Home on the range: A multi-isotope 
 (complete reference after publication)
 (add DOI after publication)
 
+All novel and previously published isotopic data used in this study are provided in the "data" folder. 
+
 Questions about or issues with code or data can be send to ward1179@umn.edu or @ClarkDeadnDying on twitter.
 
 ## __References cited in building the carbon predictive model__
