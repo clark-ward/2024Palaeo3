@@ -33,6 +33,6 @@ Florida:
 
 ### __Other references__
 
-Formatting for the supplementary file from [Tipple et al. (2010)](https://doi.org/10.1029/2009PA001851) had some problems. A cleaned version has been supplied in the "extra" folder. We hope it will be useful for others.
+Formatting for the supplementary file from [Tipple et al. (2010)](https://doi.org/10.1029/2009PA001851) had some problems. A cleaned up version has been supplied in the "extra" folder. We hope it will be useful for others.
 
-To calculate analytical uncertainty of stable isotope analyses, we used the calculators created by [Spzack et al. (2017)](https://doi.org/10.1016/j.jasrep.2017.05.007). We have provided the two calculators used in this publication ("Florida" and "Michigan"), and a blank version for the reader in the "extra" folder. 
+We used calculators created by [Spzack et al. (2017)](https://doi.org/10.1016/j.jasrep.2017.05.007) to calculate analytical uncertainty associated with stable isotope analyses. We have provided the two calculators used in this publication ("Florida" and "Michigan"), and a blank version for the reader in the "extra" folder. 
