@@ -21,11 +21,12 @@ Body mass estimates from: [Clementz et al. (2008)](https://doi.org/10.2110/palo.
 Oklahoma: [Frederickson et al. (2022)](https://doi.org/10.4202/app.00941.2021)
 
 Nebraska: 
+[Clementz et al. (2008)](https://doi.org/10.2110/palo.2007.p07-054r);
 [Kita et al. (2014)](https://doi.org/10.1016/j.palaeo.2014.02.013);
-[Nguy and Secord (2022)](https://doi.org/10.1016/j.palaeo.2022.110929);
+[Nguy and Secord (2022)](https://doi.org/10.1016/j.palaeo.2022.110929); and this study.
 
 Florida: 
-[MacFadden (1998)](https://doi.org/10.1666/0094-8373(1998)024[0274:TOTRIE]2.3.CO;2);
+[MacFadden (1998)](https://doi.org/10.1666/0094-8373(1998)024[0274:TOTRIE]2.3.CO;2) and 
 [MacFadden and Cerling (1996)](https://doi.org/10.1080/02724634.1996.10011288)
 
 ## __Other references__
