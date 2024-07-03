@@ -17,17 +17,17 @@ Body mass estimates from: [Clementz et al. (2008)](https://doi.org/10.2110/palo.
 [Mead (2000)](https://doi.org/10.1666/0094-8373(2000)026<0689:SDAPIT>2.0.CO;2); and
 [Parker et al. (2018)](https://doi.org/10.1016/j.palaeo.2018.07.017).
 
-## __Oxygen data references__
+## __Oxygen isotope data references__
 Oklahoma: [Frederickson et al. (2022)](https://doi.org/10.4202/app.00941.2021)
 
 Nebraska: 
 [Clementz et al. (2008)](https://doi.org/10.2110/palo.2007.p07-054r);
 [Kita et al. (2014)](https://doi.org/10.1016/j.palaeo.2014.02.013);
-[Nguy and Secord (2022)](https://doi.org/10.1016/j.palaeo.2022.110929); and this study.
+[Nguy and Secord (2022)](https://doi.org/10.1016/j.palaeo.2022.110929); and this study. 
 
 Florida: 
 [MacFadden (1998)](https://doi.org/10.1666/0094-8373(1998)024[0274:TOTRIE]2.3.CO;2) and 
-[MacFadden and Cerling (1996)](https://doi.org/10.1080/02724634.1996.10011288)
+[MacFadden and Cerling (1996)](https://doi.org/10.1080/02724634.1996.10011288). Please note that the oxygen isotope data from MacFadden and Cerling (1996) are published in appendix 2 of MacFadden (1998). 
 
 ## __Other references__
 
