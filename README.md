@@ -10,7 +10,7 @@ All novel and previously published isotopic data used in this study are provided
 
 Questions about or issues with code or data can be send to ward1179@umn.edu or @ClarkDeadnDying on twitter.
 
-## __References cited in building the carbon predictive model__
+### __References cited in building the carbon predictive model__
 Calculating enrichment values from body mass estimates used equations from [Tejada-Lara et al. (2018)](http://dx.doi.org/10.1098/rspb.2018.1020).
 
 Body mass estimates from: [Clementz et al. (2008)](https://doi.org/10.2110/palo.2007.p07-054r);
@@ -19,7 +19,7 @@ Body mass estimates from: [Clementz et al. (2008)](https://doi.org/10.2110/palo.
 [Mead (2000)](https://doi.org/10.1666/0094-8373(2000)026<0689:SDAPIT>2.0.CO;2); and
 [Parker et al. (2018)](https://doi.org/10.1016/j.palaeo.2018.07.017).
 
-## __Oxygen isotope data references__
+### __Oxygen isotope data references__
 Oklahoma: [Frederickson et al. (2022)](https://doi.org/10.4202/app.00941.2021)
 
 Nebraska: 
@@ -31,7 +31,7 @@ Florida:
 [MacFadden (1998)](https://doi.org/10.1666/0094-8373(1998)024[0274:TOTRIE]2.3.CO;2) and 
 [MacFadden and Cerling (1996)](https://doi.org/10.1080/02724634.1996.10011288). Please note that the oxygen isotope data from MacFadden and Cerling (1996) are published in appendix 2 of MacFadden (1998). 
 
-## __Other references__
+### __Other references__
 
 Formatting for the supplementary file from [Tipple et al. (2010)](https://doi.org/10.1029/2009PA001851) had some problems. A cleaned version has been supplied in the "extra" folder. We hope it will be useful for others.
 
