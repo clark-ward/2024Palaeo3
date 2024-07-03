@@ -10,11 +10,12 @@ Questions about or issues with code or data can be send to ward1179@umn.edu or @
 
 ### __References cited in building the carbon predictive model__
 Calculating enrichment values from body mass estimates used equations from [Tejada-Lara et al. (2018)](http://dx.doi.org/10.1098/rspb.2018.1020).
+
 Body mass estimates from: [Clementz et al. (2008)](https://doi.org/10.2110/palo.2007.p07-054r);
 [Jerison (1971)](https://doi.org/10.1086/282720);
 [MacFadden (1986)](https://doi.org/10.1017/S0094837300003109);
-[Mead (2000)](https://doi.org/10.1666/0094-8373(2000)026<0689:SDAPIT>2.0.CO;2);
-[Parker et al. (2018)](https://doi.org/10.1016/j.palaeo.2018.07.017)
+[Mead (2000)](https://doi.org/10.1666/0094-8373(2000)026<0689:SDAPIT>2.0.CO;2); and
+[Parker et al. (2018)](https://doi.org/10.1016/j.palaeo.2018.07.017).
 
 ### __Oxygen data references__
 Oklahoma: [Frederickson et al. (2022)](https://doi.org/10.4202/app.00941.2021)
