@@ -42,38 +42,25 @@ setwd(dir)
   Sr.lab <- expression(bold(""^87*"Sr/"^86*"Sr"))
 }
 
-# carbon predictive model uncertainty
+# carbon predictive model 
 {
-  # calculating enrichment values (epsilon) and 90CI
-  {
-    # equations from Tejada-Lara et al. (2018)
-    foregut.epsilon <- function(BM){exp(2.34 + 0.05 * log(BM))}
-    hindgut.epsilon <- function(BM){exp(2.42 + 0.032 * log(BM))}
+  # equations from Tejada-Lara et al. (2018)
+  foregut.epsilon <- function(BM){exp(2.34 + 0.05 * log(BM))}
+  hindgut.epsilon <- function(BM){exp(2.42 + 0.032 * log(BM))}
     
-    # calculate each species' epsilon
-    Teleo.ep <- hindgut.epsilon(950) # middle point of Mead (2000)
-    Cormohip.ep <- hindgut.epsilon(150) # MacFadden (1986)
-    Pseudhip.ep <- hindgut.epsilon(100) # Parker et al. (2018)
-    Pliohip.ep <- hindgut.epsilon(150) # MacFadden (1986)
-    Procam.ep <- foregut.epsilon(310) # Jerison (1971)
-    Protolab.ep <- foregut.epsilon(95) # Jerison (1971)
-    Longi.ep <- foregut.epsilon(15) # Clementz et al. (2008)
+  # calculate each species' epsilon
+  Teleo.ep <- hindgut.epsilon(950) # middle point of Mead (2000)
+  Cormohip.ep <- hindgut.epsilon(150) # MacFadden (1986)
+  Pseudhip.ep <- hindgut.epsilon(100) # Parker et al. (2018)
+  Pliohip.ep <- hindgut.epsilon(150) # MacFadden (1986)
+  Procam.ep <- foregut.epsilon(310) # Jerison (1971)
+  Protolab.ep <- foregut.epsilon(95) # Jerison (1971)
+  Longi.ep <- foregut.epsilon(15) # Clementz et al. (2008)
     
-    # make list of all values
-    weighted.ep <- c(rep(Teleo.ep, times = 13), rep(Cormohip.ep, times = 3), rep(Pseudhip.ep, times = 3), rep(Pliohip.ep, times = 3), Procam.ep, Protolab.ep, rep(Longi.ep, times = 3))
-    
-    # calculations
-    weighted.mean <- mean(weighted.ep)
-    weighted.sd <- sd(weighted.ep)
-    weighted.SEM <- weighted.sd / length(weighted.ep)^0.5
-    weighted.90CI <- 1.64 * weighted.SEM
-  }
-  
-  # composite uncertainty
-  {
-    # Tipple et al. (2010) 90CI for 11.8 Ma 3 Myr rolling average is 0.34
-    (0.34^2 + weighted.90CI^2)^0.5
-  }
+  # calculate weighted mean
+  x <- c(Teleo.ep, Cormohip.ep, Pseudhip.ep, Pliohip.ep, Procam.ep, Protolab.ep, Longi.ep)
+  w <- c(13, 3, 3, 3, 1, 1, 3) / 27
+  mean <- weighted.mean(x, w)
 }
 
 # non-parametric analyses
