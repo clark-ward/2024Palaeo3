@@ -35,7 +35,6 @@ setwd(dir)
   O.lim.VSMOW <- c(22.6,29.6)
   Sr.lim <- c(0.7086, 0.709)
   color.list <- c("darkorange", "deepskyblue", "indianred3", "aquamarine3", "paleturquoise4", "firebrick4", "lightgoldenrod4", "black", "black")
-  color.list.full <- c("darkorange", "deepskyblue", "indianred3", "aquamarine3", "paleturquoise4", "firebrick4", "lightgoldenrod4", "khaki3", "lightskyblue3", "olivedrab", "saddlebrown", "lavender", "slateblue1")
   Sr.iso.uncertainty <- 0.00003
   C.lab <- expression(bold(delta^13*"C"["VPDB"]* " (\u2030)"))
   O.lab <- expression(bold(delta^18*"O"["VPDB"]* " (\u2030)"))
@@ -170,7 +169,7 @@ setwd(dir)
 
 # Figure 3
 {
-  # I got this function from someone on the internet, I can't remember who. Thank you anonymous person. Note that I made them all the same length post-R. 
+  # I got this function from someone on the internet, I can't remember who. Thank you anonymous person. Note that I made the arrows all the same length post-R. 
   lda.arrows <- function(x, myscale = 1, tex = 0.75, choices = c(1,2), ...){
     ## adds `biplot` arrows to an lda using the discriminant function values
     heads <- coef(x)
@@ -238,9 +237,9 @@ setwd(dir)
     }
   }
   
-  # Figure 5
+  # Figure 4
   {
-    # cairo_pdf("figure 5.pdf", width = 5, height = 5)
+    # cairo_pdf("figure 4.pdf", width = 5, height = 5)
     # the dimensions matching the publication are width = 5, height = 5
     par(mfrow = c(1,1), mar = c(5,5,3,2))
     plot(Oxygen.localities$Fauna.mean, Oxygen.localities$Teleo.mean, xlim = c(24.5, 31.5), ylim = c(23.5, 32.5), pch = c(0:10), xlab = expression(bold(delta^18*"O"["Fauna, VSMOW"]* " (\u2030)")), ylab = expression(bold(delta^18*"O"["Teleoceras, VSMOW"]* " (\u2030)")))
