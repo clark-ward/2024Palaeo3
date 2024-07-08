@@ -20,6 +20,8 @@ Body mass estimates from: [Clementz et al. (2008)](https://doi.org/10.2110/palo.
 [Parker et al. (2018)](https://doi.org/10.1016/j.palaeo.2018.07.017).
 
 ### __Oxygen isotope data references__
+Converting VPDB to VSMOW: [Coplen et al. (1983)](https://doi.org/10.1038/302236a0)
+
 Oklahoma: [Frederickson et al. (2022)](https://doi.org/10.4202/app.00941.2021)
 
 Nebraska: 
