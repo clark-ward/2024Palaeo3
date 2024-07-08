@@ -194,6 +194,7 @@ setwd(dir)
   # calculations
   {
     # convert MacFadden data from VPDB to VSMOW 
+    # equation from Coplen et al. 1983
     VPDBtoVSMOW <- function(VPDB.values){VPDB.values * 1.03091 + 30.91}
     
     MacFadden_data$d18O.VSMOW <- round(VPDBtoVSMOW(MacFadden_data$d18O.VPDB), digits = 1)
